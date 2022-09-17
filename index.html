@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crie deu evento</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1> MENTORIA</h1>
+            <p>Preencha o formulário abaixo para agendar sua mentoria</p>
+        </header>
+        
+        <form>
+    
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Informações Pessoas</legend>
+    
+                    <div class="nome">
+                        <label for="event-nome"> nome </label>
+                        <input type="text" id="event-nome">
+                    </div>    
+                    <div class="sobrenome">
+                        <label for="event-sobrenome"> sobrenome </label>
+                        <input type="text" id="event-sobrenome" />
+                    </div> 
+
+                
+                    <div class="event">
+                        <label for="event-email"> e-mail </label>
+                        <input type="text" id="event-email" > 
+                    </div>
+                    <div class="event">
+                        <label for="event-password"> Senha </label>
+                        <input type="text" id=event-password >
+                    </div>     
+                        
+                </div>   
+               </fieldset>
+
+               <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Informações do Mentor</legend>
+                   
+                    <div class="mentor">
+                        <label for="event-text"> Nome do mentor</label>
+                        <input type="text" id="event-text"/>
+                    </div> 
+
+                </div>            
+            </fieldset>
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Dia e Hora</legend>
+                   
+                    <div class="Data">
+                        <label for="event-data"> Data </label>
+                        <input type="date" id="event-data"/>
+                    </div>
+
+                    <div class="event-begin">
+                        <label for="event-begin"> Das </label>
+                        <input type="time" id="event-begin"/>
+                    </div>  
+
+                    <div class="event-end">
+                        <label for="event-end"> Até </label>
+                        <input type="time" id="event-end"/>
+                    </div>       
+            
+            </fieldset>
+            
+            </form> 
+
+            <footer>
+                <input class="button" type="Submit" value="salvar evento">
+            </footer>
+    </div>
+</body>
+</html>
